@@ -28,7 +28,17 @@ public class MyCalc {
 		int number1 = in.nextInt();
 		System.out.println(">y: ");
 		int number2 = in.nextInt();
+		
+		if (choice == 1) {
+			int result = add(number1, number2);
+			
+			System.out.println("Result: " + result);
+			choose();
+			}
 	
 	}
-	
+	static int add(int number1, int number2) {
+		return number1+number2;
+	}
+		
 }
