@@ -35,10 +35,17 @@ public class MyCalc {
 			System.out.println("Result: " + result);
 			choose();
 			}
-	
+		if (choice == 2) {
+			int result = substract(number1, number2);
+			System.out.println("Result: " + result);
+			
+			choose();
+		}
 	}
 	static int add(int number1, int number2) {
 		return number1+number2;
 	}
-		
+	static int substract(int number1, int number2) {
+		return number1-number2;
+	}
 }
