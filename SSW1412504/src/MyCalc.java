@@ -48,16 +48,17 @@ public class MyCalc {
 		}
 		if(choice == 4) {
 			System.out.println("시스템 종료");
+			System.exit(0);
 			
 		}
 	}
-	static int add(int number1, int number2) {
+	public static int add(int number1, int number2) {
 		return number1+number2;
 	}
-	static int substract(int number1, int number2) {
+	public static int substract(int number1, int number2) {
 		return number1-number2;
 	}
-	static int multiply(int number1, int number2) {
+	public static int multiply(int number1, int number2) {
 		return number1*number2;
 	}
 }
